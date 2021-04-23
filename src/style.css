@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: sans-serif;
+}
+body{
+  background-color: #ffffff;
+}
+.header{
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow:0 0 2px 0 rgb(114, 113, 113);
+}
+.header h3{
+  font-family: 'Product Sans',Arial,sans-serif;
+  font-size: 22px;
+  color: #5f6368;
+}
+form{
+  position: relative;
+  max-width: 600px;
+  margin: 30px auto 50px auto; 
+  padding: 7px;
+  box-shadow:0 1px 7px rgb(114, 113, 113);
+  border-radius: 5px;
+}
+form input{
+  width: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+form textarea{
+  width: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 4px 10px;
+  font-size: 1rem;
+}
+.note{
+  background-color: #ffffff;
+  width: 230px;
+  float: left;
+  margin: 20px;
+  padding: 8px;
+  box-shadow: 0 2px 5px rgb(116, 113, 113);
+  border-radius: 7px;
+}
+.note h3{
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.note p{
+  word-wrap:break-word;
+  white-space: pre-wrap;
+}
+.footer{
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+.del{
+  position: relative;
+  left: 80%;
+  background-color:#98c1f3;
+  border-radius: 15px;
+}
+.del :hover{
+  background-color: darkgray;
+  border-radius: 15px;
+}
